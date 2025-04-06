@@ -26,7 +26,7 @@ To deploy the infrastructure on AWS, follow the steps below.
 ### 🔁 Clone the Repository
 
 ```bash
-git clone https://github.com/0xZainRaza/Secure-File-Scan-Infra
+git clone https://github.com/moiz-usid/Secure-File-Scan-Infra
 cd Secure-File-Scan-Infra
 ```
 
@@ -70,19 +70,6 @@ To destroy the infrastructure and avoid unwanted AWS charges:
 
 ```bash
 terraform destroy
-```
-
----
-
-## 📁 Project Structure
-
-```
-Secure-File-Scan-Infra/
-│
-├── main.tf               # Main Terraform configuration
-├── variables.tf          # Input variables for configuration
-├── outputs.tf            # Outputs like EC2 public IP
-└── README.md             # Project documentation
 ```
 
 ---
